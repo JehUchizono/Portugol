@@ -1,6 +1,6 @@
 programa {
   funcao inicio() {
-    // Pedir ao usu·rio uma letra e validar como positivo se a mesma for uma vogal.
+    // Pedir ao usu√°rio uma letra e validar como positivo se a mesma for uma vogal.
     caracter letra
   escreva ("Informe uma letra do alfabeto abaixo:\n")
   leia (letra) 
@@ -10,7 +10,7 @@ programa {
 senao { 
 escreva ("Ahhh, eu queria uma vogal.... tente de novo\n")
 faca {
-    // Se o usu·rio n„o informar uma vogal, permitir que ele preencha a informaÁ„o novamente.
+    // Se o usu√°rio n√£o informar uma vogal, permitir que ele preencha a informa√ß√£o novamente.
     escreva ("Informe uma letra do alfabeto abaixo:\n") 
     leia (letra)
   } enquanto (letra != 'a' e letra != 'e' e letra != 'i' e letra != 'o' e letra != 'u' e letra != 'A' e letra != 'E' e letra != 'I' e letra != 'O' e letra != 'U')
