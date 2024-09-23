@@ -1,14 +1,14 @@
 programa {
   funcao inicio() {
-    // Validar os dois ˙ltimos digitos de um CPF informado.
+    // Validar os dois √∫ltimos digitos de um CPF informado.
     inteiro cpf, copiacpf, d0, d1, d2, d3, d4, d5, d6, d7, d8, d9, d10, resultado, resultado2, dv1, dv2
         faca {
-    // Solicitar ao usu·rio a informaÁ„o de um n˙mero de CPF:
-    escreva ("Informe onze dÌgitos n˙mericos que podem representar seu CPF.\n") 
+    // Solicitar ao usu√°rio a informa√ß√£o de um n√∫mero de CPF:
+    escreva ("Informe onze d√≠gitos n√∫mericos que podem representar seu CPF.\n") 
     leia (cpf)
-    // Verificar se o cÛdigo tem 11 dÌgitos.
+    // Verificar se o c√≥digo tem 11 d√≠gitos.
   } enquanto (cpf >= 0 e 0000000001 e cpf <= 0999999999 ou cpf >= 99999999999)
-      // Distribuir os 9 primeiros dÌgitos em um quadro, para atender o requisito.
+      // Distribuir os 9 primeiros d√≠gitos em um quadro, para atender o requisito.
     copiacpf = cpf
     d0 = copiacpf % 10
     copiacpf = copiacpf/10
@@ -43,28 +43,28 @@ programa {
     d10 = copiacpf % 10
     copiacpf = copiacpf/10
     
-    // Fazer o c·lculo para atender ao requisito do primeiro digito
+    // Fazer o c√°lculo para atender ao requisito do primeiro digito
     resultado = (d10 * 10) + (d9 * 9) + (d8 * 8) + (d7 * 7) + (d6 * 6) + (d5 * 5) + (d4 * 4) + (d3 * 3) + (d2 * 2)
     
-    // Segunda verificaÁ„o, conforme requisitado para descobrir o primeiro digito verificador.
+    // Segunda verifica√ß√£o, conforme requisitado para descobrir o primeiro digito verificador.
     dv1 = resultado * 10 % 11
 
-    // Fazer o c·lculo para atender ao requisito do segundo digito
+    // Fazer o c√°lculo para atender ao requisito do segundo digito
     resultado2 = (d10 * 11) + (d9 * 10) + (d8 * 9) + (d7 * 8) + (d6 * 7) + (d5 * 6) + (d4 * 5) + (d3 * 4) + (d2 * 3) + (d1 * 2)
 
-    // Terceira verificaÁ„o, conforme requisito para descobrir o segundo digito verificador.
+    // Terceira verifica√ß√£o, conforme requisito para descobrir o segundo digito verificador.
     dv2 = resultado2 * 10 % 11
     
-    // Se o resto da divis„o for igual a 10, dever· ser considerado 0 para atender o requisito.
+    // Se o resto da divis√£o for igual a 10, dever√° ser considerado 0 para atender o requisito.
     dv1 = dv1 % 10
     dv2 = dv2 % 10
 
-    // Avisar o usu·rio sobre a validaÁ„o do CPF, conforme requisito.
+    // Avisar o usu√°rio sobre a valida√ß√£o do CPF, conforme requisito.
     se (dv1 == d1 e dv2 == d0) {
-  escreva ("CPF digitado È v·lido. ")
+  escreva ("CPF digitado √© v√°lido. ")
 }
 senao { 
-escreva ("CPF inv·lido.")
+escreva ("CPF inv√°lido.")
 }
 }
 }
