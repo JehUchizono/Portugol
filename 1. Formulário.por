@@ -3,62 +3,62 @@ programa {
     cadeia nome
     escreva ("Informe seu nome completo.\n")
     leia (nome)
-    escreva ("Seu nome é ", nome, ".")
+    escreva ("Seu nome Ã© ", nome, ".")
     
     inteiro cpf
     escreva ("\n\nInforme seu CPF.\n")
     leia (cpf)
-    escreva ("Seu CPF é ", cpf, ".")
+    escreva ("Seu CPF Ã© ", cpf, ".")
 
     inteiro rg
     escreva ("\n\nInforme seu RG.\n")
     leia (rg)
-    escreva ("Seu RG é ", rg, ".")
+    escreva ("Seu RG Ã© ", rg, ".")
 
     cadeia nascimento
     escreva ("\n\nInforme sua data de nascimento.\n")
     leia (nascimento)
-    escreva ("Sua data de nascimento é ", nascimento, ".")
+    escreva ("Sua data de nascimento Ã© ", nascimento, ".")
 
     inteiro idade
     escreva ("\n\nInforme sua idade.\n")
     leia (idade)
-    escreva ("sua idade é ", idade, ".")
+    escreva ("sua idade Ã© ", idade, ".")
     
     cadeia sexo
     escreva("\n\nInforme seu sexo: Masculino ou Feminino?.\n") 
     leia (sexo)
-    escreva ("Seu sexo é ", sexo, ".")
+    escreva ("Seu sexo Ã© ", sexo, ".")
 
     cadeia endereco
-    escreva ("\n\nInforme seu endereço.\n")
+    escreva ("\n\nInforme seu endereÃ§o.\n")
     leia (endereco)
-    escreva ("Seu endereço é ", endereco, ".")
+    escreva ("Seu endereÃ§o Ã© ", endereco, ".")
 
     inteiro numero
-    escreva ("\n\nInforme o número do seu endereço.\n")
+    escreva ("\n\nInforme o nÃºmero do seu endereÃ§o.\n")
     leia (numero)
-    escreva ("O número do seu endereço é ", numero, ".")
+    escreva ("O nÃºmero do seu endereÃ§o Ã© ", numero, ".")
 
     cadeia cidade
     escreva ("\n\nInforme o nome da sua Cidade.\n")
     leia (cidade)
-    escreva ("O nome da sua cidade é ", cidade, ".")
+    escreva ("O nome da sua cidade Ã© ", cidade, ".")
 
     cadeia estado
     escreva ("\n\nInforme o nome do seu Estado.\n")
     leia (estado)
-    escreva ("O nome do seu Estado é ", estado, ".")
+    escreva ("O nome do seu Estado Ã© ", estado, ".")
 
     inteiro telefone
     escreva ("\n\nInforme o seu telefone para contato.\n")
     leia (telefone)
-    escreva ("O seu telefone para contato é ", telefone, ".")
+    escreva ("O seu telefone para contato Ã© ", telefone, ".")
 
     cadeia email
     escreva ("\n\nInforme seu E-mail para contato.\n")
     leia (email)
-    escreva ("O seu E-mail para contato é ", email, ".")
+    escreva ("O seu E-mail para contato Ã© ", email, ".")
     
   }
 }
